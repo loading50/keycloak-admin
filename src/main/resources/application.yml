@@ -1,0 +1,14 @@
+keycloak-admin:
+  simulate: false
+  realm: SpringBootKeycloak
+  client-id: login-app
+  username: admin
+  password: admin
+  url: http://localhost:8080/
+
+logging:
+  level:
+    uz.loading: debug
+
+server:
+  port: 7070
